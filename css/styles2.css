@@ -1,0 +1,461 @@
+body {
+	background-color: #161603;
+	height: 100%;
+
+}
+
+table a:link {
+    text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+	color: #000000;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.profile {
+	
+	display: inline-block;
+	text-align: center;
+}
+.profile img {
+    float: left;
+}
+
+.profile-photo {
+	width:20%;
+	
+}
+.profile-content {
+	width: 80%;
+}
+.expandable-content form {
+    display: none;
+    background-color:  #f9fafb;
+    box-shadow: 0px 2px 0px 0.00px #e2e8eb;
+    text-align: center;
+    padding: 20px 20px 30px;
+}
+
+.expandable-content h2 {
+    position: relative;
+    background-color:  #f9fafb;
+    border-bottom: 2px solid #e2e8eb;
+    height: 45px;
+    margin: 0;
+    text-align: center;
+    color:  #000000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.main {
+	max-width: 1200px;
+    margin: auto;
+	margin-top: 100px;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+	text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e096;
+    padding: 10px;
+}
+
+.content2 {
+	display: inline-block;
+	text-align: left;
+}
+
+.footer {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffc4;
+    padding: 10px;
+}
+
+
+.topnav ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffc4;
+
+}
+
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+.topnav li a:hover:not(.active) {
+    background-color: #e0e096;
+}
+
+.active {
+    background-color: #f2f293;
+}
+
+textarea {
+    background-color: #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(0, 0, 0, 0.04);
+    border: 1px solid #bfcdda;
+    outline: none;
+    max-width: 320px;
+    width: 100%;
+    height: 76px;
+    margin-bottom: 20px;
+    resize: none;
+    font-weight: normal;
+    font: inherit;
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    color:inherit;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+	background-color: #f2f293;
+	color: #000000;
+}
+
+tr {background-color: #FFFFC4;}
+
+th, td {
+    height: 20px;
+    padding: 3px;
+    border-bottom: 1px solid #aaa;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+input[type=password] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    margin-top: 5px;
+    background-color: #f2f293;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 0px;
+    border-radius: 0px; 
+}
+
+input[id=fileToUpload] {
+    padding:5px 15px; 
+    margin-top: 5px;
+    background-color: #f2f293;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 0px;
+    border-radius: 0px; 
+}
+
+select {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: #E0E096;
+}
+
+.ui-datepicker-header {
+  background-color: #000000;
+  color: #e0e0e0;
+  font-weight: bold;
+  -webkit-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, 2);
+  -moz-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+  box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+  text-shadow: 1px -1px 0px #000;
+  filter: dropshadow(color=#000, offx=1, offy=-1);
+  line-height: 30px;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #111;
+}
+
+
+.ui-datepicker-title {
+  text-align: center;
+}
+
+	
+.ui-datepicker-prev, .ui-datepicker-next {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  line-height: 600%;
+  overflow: hidden;
+}
+.ui-datepicker-prev {
+  float: left;
+  background-position: center -30px;
+}
+.ui-datepicker-next {
+  float: right;
+  background-position: center 0px;
+}
+
+
+.registerbutton { 
+	width: 100%;
+}
+
+.shoutbox {
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.shoutbox h1 {
+    background-color: #F2F293;
+    box-shadow: 0px 1px 1px 0.00px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
+    height: 50px;
+    text-align: left;
+    margin: 0;
+    padding-left: 20px;
+    color:  #000000
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 46px;
+}
+
+.shoutbox h1 img {
+    position: absolute;
+    top: 13px;
+    right: 35px;
+    width: 17px;
+    height: 18px;
+    float:right;
+    cursor: pointer;
+}
+
+.shoutbox-content {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background:  #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.shoutbox-content li {
+    padding: 10px;
+    border-bottom: 1px solid #d5dbe1;
+}
+
+.shoutbox-username a {
+    display: inline;
+    color:  #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 5px;
+	text-decoration: none; 
+}
+
+.shoutbox-comment {
+    display: inline;
+    color:  #717c87;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+.shoutbox-comment-details {
+    width: 100%;
+    margin: 5px auto;
+    height: 11px;
+}
+
+.shoutbox-comment-reply {
+    display: inline-block;
+    float: left;
+    color:  #5896cb;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+    height: 9px;
+    cursor: pointer;
+}
+
+.shoutbox-comment-ago {
+    display: inline-block;
+    float: right;
+    color:  #9aa1a7;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: right;
+    height: 11px;
+}
+
+.shoutbox h2 {
+    position: relative;
+    background-color:  #f9fafb;
+    border-bottom: 2px solid #e2e8eb;
+    max-width: 100%;
+    height: 45px;
+    margin: 0;
+    text-align: center;
+    color:  #000000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.shoutbox h2 span {
+    display: none;
+    position: absolute;
+    float: right;
+    right: 13px;
+    font-size: 22px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 20px;
+}
+.shoutbox-notlogged {
+	position: relative;
+    background-color:  #f9fafb;
+    border-bottom: 2px solid #e2e8eb;
+    max-width: 100%;
+    height: 45px;
+    margin: 0;
+    text-align: center;
+    color:  #000000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.shoutbox-form form {
+    display: none;
+    background-color:  #f9fafb;
+    box-shadow: 0px 2px 0px 0.00px #e2e8eb;
+    max-width: 100%;
+    text-align: left;
+    padding: 20px 20px 30px;
+}
+
+.shoutbox-form form label {
+    display: inline-block;
+    color:  #000000;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    width: 80px;
+    height: 11px;
+    line-height: 11px;
+    margin-bottom: 15px;
+}
+
+.shoutbox-form form .shoutbox-comment-label {
+    position: relative;
+}
+
+.shoutbox-form form #shoutbox-comment {
+    background-color: #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(0, 0, 0, 0.04);
+    border: 1px solid #bfcdda;
+    outline: none;
+    max-width: 320px;
+    width: 100%;
+    margin-bottom: 20px;
+    resize: none;
+    font-weight: normal;
+    font: inherit;
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    color:inherit;
+}
+
+.shoutbox-form form input[type=submit] {
+    background-color: #E0E096;
+    border: 1px solid #e6e7e8;
+    box-shadow: 0px 1px 2px 0.00px rgba(0, 0, 0, 0.1);
+    width: 110px;
+    height: 40px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+
+@media print {
+
+  * {box-shadow:none;}
+
+  .topnav, .footer, img {
+    display:none;
+  }
+
+  h1, h2, h3 {
+        page-break-after: avoid;
+    }
+
+  /*linki*/
+    a[href]:after {
+        content: " (" attr(href) ")";
+    } 
+
+  /*tabelki*/
+  tr {
+    page-break-inside: avoid;
+  }
+}
